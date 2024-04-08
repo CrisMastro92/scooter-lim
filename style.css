@@ -1,0 +1,90 @@
+body{
+    background-image: url("immagini/background.jpg");
+    background-size: cover;
+}
+
+/*logo e nome sito*/
+
+
+#riquadro{
+    width: 1100px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.56);
+    padding-top: 50px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    color: rgb(51, 238, 51);
+    font-family: "Chakra Petch";
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+/*tasti e navigazione*/
+
+
+#navigatore{
+    width: 900px;
+    height: 40px;
+    margin: auto;
+    background-color: rgb(51, 238, 51);
+    display: flex;
+}
+
+.tasti{
+    display: inline-block;
+    margin: auto;
+}
+
+button{
+    margin: auto;
+    font-family: "Chakra Petch";
+    font-size: 12px;
+}
+
+/*parte centrale*/
+
+.central{
+    width: 900px;
+    margin: auto;
+}
+
+span{
+    color: white;
+    font-family: "Chakra Petch"
+}
+
+.utenti{
+    margin-top: 20px;
+}
+
+#carica1{
+    width: 500px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 5px;
+    margin-top: 0%;
+}
+
+#carica2{
+    width: 200px;
+    height: 20px;
+    background-color: red;
+    border-radius: 5px;
+    margin-top: 0%;
+}
+
+#carica3{
+    width: 800px;
+    height: 20px;
+    background-color: green;
+    border-radius: 5px;
+    margin-top: 0%;
+}
